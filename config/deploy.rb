@@ -1,7 +1,7 @@
 set :application, "xbridge"
 set :deploy_to, "/var/www/#{application}"
 set :repository,  "git@github.com:stevecreedon/xbridge.git"
-set :user, 'xbridge'
+set :user, 'deploy'
 
 set :scm, :git
 set :use_sudo, false
